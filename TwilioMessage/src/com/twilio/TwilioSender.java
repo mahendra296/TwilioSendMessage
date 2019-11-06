@@ -7,9 +7,9 @@ import com.twilio.type.PhoneNumber;
 
 public class TwilioSender implements SmsSender
 {
-	public static final String ACCOUNT_SID = "AC4b9d48b884219ec23240fd3374b20274";
-    public static final String AUTH_TOKEN = "605fd529e27cf91a2b780180b49445f6";
-    public static final String PHON_NUMBER = "+12247013868";
+    public static final String ACCOUNT_SID = "<ACCOUNT_SID>";
+    public static final String AUTH_TOKEN = "<AUTH_TOKEN>";
+    public static final String PHON_NUMBER = "<TWILIO_PHON_NUMBER>";
 	
     @Override
 	public void sendSms(SmsRequest smsRequest)
